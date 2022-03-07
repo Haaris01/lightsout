@@ -6,13 +6,32 @@
 }
 
 .Board-body{
-  margin: 18vh auto;
+  margin: 12vh auto;
+}
+
+.Board-rules{
+  font-size: 20px;
+  font-family: neon;
+  justify-content: center;
+  align-items: center;
+}
+
+#rules-rule{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#f5760e;
+  font-size: 2rem !important;
 }
 
 .Board-title{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.rules-head{
+  font-size:40px;
 }
 
 table tr:first-child td:first-child{
@@ -109,4 +128,30 @@ table tr:last-child td:last-child{
     line-height: 5vw;
     text-shadow: 0 0 3vw #2356FF;
   }
+
+  .rules-head{
+    font-size:20px;
+  }
+
+  .Board-rules{
+    font-size: 10px;
+    font-family: neon;
+  }
+
+  #rules-rule{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#f5760e;
+    font-size: 10px !important;
+  }
+  
+  .Board-rules li:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#28D7FE;
+  }
+  
+  
 }

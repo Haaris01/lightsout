@@ -57,7 +57,7 @@ class Board extends Component {
     //   [false,false,false,true,true],
     //   [false,false,false,false,true],
     // ];
-    
+
     // TODO: create array-of-arrays of true/false values
     for (let y = 0; y < this.props.nrows; y++) {
       let row = [];
@@ -136,6 +136,10 @@ class Board extends Component {
           :
           (
             <div className="Board-body">
+                <h2 className="Board-title rules-head neon">Rules : </h2>
+                <ul>
+                  <li className="neon rules-rule" id="rules-rule">Turn all the cells off to win!!</li>
+                </ul>
               <span className="neon">Lights</span>
               <span className="flux">Out</span>
               {this.maketable()}
