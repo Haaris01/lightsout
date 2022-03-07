@@ -2,7 +2,7 @@
   "name": "react-lights-out",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://haaris01.github.io",
+  "homepage": "https://Haaris01.github.io/lightsout",
   "dependencies": {
     "-": "^0.0.1",
     "express": "^4.17.3",
