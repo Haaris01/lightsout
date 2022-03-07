@@ -92,3 +92,21 @@ table tr:last-child td:last-child{
     color: #146C80;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .neon {
+    font-family: neon;
+    color: #FB4264;
+    font-size: 40px;
+    line-height: 4vw;
+    text-shadow: 0 0 3vw #F40A35;
+  }
+
+  .flux {
+    font-family: neon;
+    color: #426DFB;
+    font-size: 40px;
+    line-height: 5vw;
+    text-shadow: 0 0 3vw #2356FF;
+  }
+}

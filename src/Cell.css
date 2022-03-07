@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 768px) {
   .Cell{
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
   }
 }
