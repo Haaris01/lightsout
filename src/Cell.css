@@ -1,0 +1,17 @@
+.Cell {
+  height: 100px;
+  width: 100px;
+  background-color: #263238;
+  transition: all 0.3s ease-in-out;
+}
+
+.Cell-lit {
+  background-color: #00bcd4;
+}
+
+@media screen and (max-width: 768px) {
+  .Cell{
+    height: 80px;
+    width: 80px;
+  }
+}
